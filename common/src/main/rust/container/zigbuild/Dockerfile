@@ -10,5 +10,6 @@ RUN rustup target add aarch64-unknown-linux-gnu
 RUN rustup target add x86_64-unknown-freebsd
 # used for AArch64 FreeBSD
 #RUN rustup component add rust-src
+RUN rustup target add aarch64-linux-android
 
 WORKDIR /
